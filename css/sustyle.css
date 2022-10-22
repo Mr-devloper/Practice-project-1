@@ -1,0 +1,104 @@
+/* 
+   
+     font-family: 'Caveat Brush', cursive;
+
+    font-family: 'Comfortaa', cursive;
+
+    font-family: 'Jost', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+    color number #00BF8E*/
+    /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+    *{box-sizing: border-box; margin: 0px; padding: 0px;}
+
+    .container{
+        /* border: red 2px solid; */
+        background-color: #00BF8E;
+        display: flex;
+        padding: 20px 0px 20px 0px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .form-container{
+        /* border: blue 2px solid; */
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+       
+        
+    }
+    .form-group > input{
+        width: 50vw;
+        margin-top: 15px;
+        height: 45px;
+        padding: 8px;
+        border: none;
+        background-color: aliceblue;
+        font-size: 1rem;
+    }
+    .form-groupn > input{
+        width: 24vw;
+        margin-top: 15px;
+        height: 45px;
+        padding: 8px;
+        border: none;
+        font-size: 1rem;
+        background-color: aliceblue;
+       
+    }
+    #second-name{
+        margin-left: 1.6vw;
+    }
+    form{
+        padding: 25px;
+    }
+.header-container{
+    margin: 25px 12px 18px 25px ;
+}
+.header-container > h1{
+    font-weight: bold;
+}
+.header-container > h5{
+    margin-top: 10px;
+    color: rgb(172, 172, 172);
+}
+.check{
+    margin-top: 15px;
+   
+}
+.check > a{
+    text-decoration: none;
+    color: #00BF8E ;
+}
+.check > a:hover{
+    color: rgb(0, 0, 141);
+    text-decoration: underline;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 45px;
+
+}
+#btn{
+    background-color: #00BF8E;
+    color: #ffffff;
+    border: none;
+    padding: 8px 35px 8px 35px;
+    font-size: 1rem;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#checkbox{
+    cursor: pointer;
+}
+.f-data{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}

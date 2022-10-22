@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{box-sizing: border-box; margin: 0px; padding: 0px; font-family: 'Open Sans', sans;-serif;}
+
+/* font-family: 'Open Sans', sans;-serif */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px 35px 0px;
+    background-color: #00bf8e;
+    height: 100vh;
+
+}
+.first-section{
+    background-color: white;
+    padding: 50px 285px 50px 35px;
+    display: block;
+}
+#email{
+    margin-top: 6px;
+    width: 27vw;
+    height: 2rem;
+    border: none;
+    background-color: aliceblue;
+    caret-color: #00bf8e;
+    font-size: 1rem;
+}
+,h1-t{
+    font-weight: bold;
+}
+.header > h5{
+    margin-top: 6px;
+}
+.inputs-group{
+    margin-top: 25px;
+}
+#sc-btn {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #00bf8e;
+    color: white;
+    font-size: 1rem;
+  }
+
+
+  /* Section 2 code */
+.second-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    width: 60vw;
+    height: 65vh;
+    background-color: white;
+    display: none;
+}
+.span-datas{
+}
+.h2-datas{
+    margin-bottom: 2rem;
+}
+.code-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.forms-group > input{
+    width: 2rem;
+    height: 3rem;
+    margin-left: 1rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(223, 240, 255);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.re-btn{
+    padding: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+    color: #00bf8e;
+}
+.re-btn:hover{
+    background-color: lightgrey;
+
+}
+.sub-btn{
+    border: none;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    background-color: #00bf8e;
+    color: white;
+    border-radius: 0.4rem;
+    margin-left: 1.5rem;
+}
+.sub{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.2rem;
+    
+}
+.edit-btn{
+    color: #00bf8e;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+
+}
+.edit-btn:hover{
+    text-decoration: underline;
+}
